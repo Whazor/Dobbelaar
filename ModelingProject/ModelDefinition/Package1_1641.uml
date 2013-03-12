@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1f0931d7-54ec-41d8-bca5-2f492dbbf2ce"
+  name="Views"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="db065f7d-00ca-45e2-8c28-fbe88e7e67a7"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDobbelaar.Views"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="72be635c-9d5f-4825-ac9a-f623ad672f86"
+        name="Dots"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4c76fe97-bb69-4c2d-aaa6-5a4ac2d4f9fc"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5ff9e82a-24dc-4e3d-9cb9-42ce907ae7e1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a671cc99-9105-47da-a33a-4c8b6eeb924d">
+                <propertyInstance
+                  Id="93382949-0f41-4bf3-9cbc-c73eb328fa05"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="521c7fe8-19b2-425f-bcf3-a21cca6952ae">
+                <propertyInstance
+                  Id="526f84b1-07c0-427f-b2c4-a41352fdbcd2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9b72fb72-57e6-4889-bf93-33803427f5bb">
+                <propertyInstance
+                  Id="fdfe9c73-c44a-441a-b3a6-c8abb057f357"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fb813958-84aa-4bb8-9c41-585d0f331146">
+                <propertyInstance
+                  Id="a0a1fcaa-9d65-4ad3-8215-5088a82dd995"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8dc0ec39-7bb4-4b66-82f6-4afd227b7b82">
+                <propertyInstance
+                  Id="d9b093c6-025b-4d94-80c0-c69807755c14"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="5347574a-8d4a-4843-9c76-0ec36fad5a6b">
+            <interfaceMoniker
+              Id="dba97241-5c64-4e3c-880a-e3bde2189723"
+              LastKnownName="IComponentConnector"
+              LastKnownLocation="Package5_1641.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="b8cb7538-656e-4da2-88d8-25b7ab980104"
+            isSubstitutable="false">
+            <classMoniker
+              Id="2f6dfd24-6114-49c2-a3c2-0f0942add6be"
+              LastKnownName="Window"
+              LastKnownLocation="Package3_1641.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="58a61374-78c9-4c94-8a9c-0a4650e05b16"
+            name="Waarde"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4c056b17-e4ac-421f-9ad1-ffa2775da364"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DWaarde"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bb3e5bc0-c072-4d11-92f4-09e15379bd1d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c7e3a48-d783-43e6-ada4-fb3266e49cc4">
+                    <propertyInstance
+                      Id="abe2f94c-96bd-41c3-a3b2-51a297bcb1da"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c1b371f-be99-4870-babb-ad224f5e66ea">
+                    <propertyInstance
+                      Id="07251cba-5e81-480f-8448-159176cd71d1"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fccf1bf1-75f0-4b35-bc63-db361e6e9067">
+                    <propertyInstance
+                      Id="d4892081-eb0d-46ac-a2ad-b7cb09d8a212"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="494fbef5-d375-47d4-b591-28904b0e0d5e">
+                    <propertyInstance
+                      Id="7ef5b20e-4001-4af2-99a6-3de13cf0d51a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="075cde77-e410-4a98-8c11-637416792c0c">
+                    <propertyInstance
+                      Id="507f8032-c11a-428f-a189-bfdcd8d899cd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b591f2d7-e843-484c-8fd2-89ddc07b758c">
+                    <propertyInstance
+                      Id="84e33d98-efd1-4ba0-9369-66837197b76e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="400c8007-3252-4262-8a22-cb32add529c6">
+                    <propertyInstance
+                      Id="1f669ca4-f941-458f-b46e-bf70df6908ae"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="37778c89-5437-4359-a8d9-aa7adf436f6b"
+            name="E1"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7de92b85-d031-4d6d-8270-c018d6bd679e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DE1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5b3e983-b158-4400-b3e9-83e42fd2de50"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef2fb37d-c78e-4065-9ba1-2789f9e80eb2">
+                    <propertyInstance
+                      Id="6479a571-5811-401f-97aa-caaf8c79bb19"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c80bc1ed-51f2-4c68-b29f-ab13d77c64f9">
+                    <propertyInstance
+                      Id="1d98dfa6-1ae3-4d99-b3b1-3348cddc267c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbab0949-b1c9-4539-aa35-38868d0553d4">
+                    <propertyInstance
+                      Id="f862240f-bb98-4fc7-9606-1716b460cebe"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcf3cb38-207a-4656-b494-80838f833a27">
+                    <propertyInstance
+                      Id="1e90ef80-0519-4d83-bfa1-5736618d90d4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c16ab70c-155e-4c8a-ad5a-a53bb04cd1d2">
+                    <propertyInstance
+                      Id="bb43bb79-c920-48f0-9258-cde4c5c702c0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93fecea8-f527-49a8-81c6-e9380cfa0f05"
+                LastKnownName="Ellipse"
+                LastKnownLocation="Package4_1641.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1beb1a7d-7ea6-4200-90aa-1a4f422b9ce1"
+            name="E2"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="64b794f8-2609-4486-88a6-f1ed30b0e5a3"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DE2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ce4e2af2-a8a0-4afe-83af-ad4f30e8c673"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7abf2fb-5299-4f8b-8b3e-5bca04bce8eb">
+                    <propertyInstance
+                      Id="f31f32fe-b5b7-423e-8a84-6d5bc17fa8b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="986521ca-036d-4d62-99d4-faa94c5975a3">
+                    <propertyInstance
+                      Id="0007f1a5-ff6f-4ecd-8d62-0bc39f2e60c0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3594357e-be88-4d39-9fd7-7f7e059ded32">
+                    <propertyInstance
+                      Id="43d3fcef-d37f-4cde-a9c0-2f5d43b31cb2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05830fe1-a09f-48e3-94a8-7e03c559d49f">
+                    <propertyInstance
+                      Id="54a88a14-5eea-4718-9c56-378d08010e3d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3feac4ea-b49d-441b-89b9-f1329d4653c5">
+                    <propertyInstance
+                      Id="19d72fdf-ebd7-4ec2-9483-8905f8253ad8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93fecea8-f527-49a8-81c6-e9380cfa0f05"
+                LastKnownName="Ellipse"
+                LastKnownLocation="Package4_1641.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c7581932-9e62-4e00-bfae-69f38208e82b"
+            name="E3"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cecf2f59-4332-4a0f-b3f1-ecca4b0ecb98"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DE3"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="67f96ab1-ca74-442d-ae2b-819a58e9756d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b27d1fe-ea63-48c5-ad29-f92a6353289c">
+                    <propertyInstance
+                      Id="925233ce-36a7-494b-bfc3-b58fc8c399fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09fddac2-2550-4ebe-b3e7-a1b608c41b9f">
+                    <propertyInstance
+                      Id="1c59fc74-260c-446d-8615-55da6fe4661c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a2f40bb-f23b-4948-af3a-08034698c419">
+                    <propertyInstance
+                      Id="ce28f40e-8d7e-4d4b-9f64-a79bcc65c066"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="728c91d0-99ec-452a-a0e3-ade65a606bb6">
+                    <propertyInstance
+                      Id="56d3cc41-432d-40e0-975e-30ae9e6d8d24"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05b87e6d-4a79-404a-a852-0ddd979b1ff1">
+                    <propertyInstance
+                      Id="a19c2a12-2e91-4e28-9aa8-b5cd7aa55073"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93fecea8-f527-49a8-81c6-e9380cfa0f05"
+                LastKnownName="Ellipse"
+                LastKnownLocation="Package4_1641.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="457e798c-ed85-4ca8-8135-d79000625427"
+            name="E4"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="04c5f663-e5a1-4aa8-8a75-c08cd7b41563"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DE4"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="02b53364-9b20-4367-a7bc-433722caa023"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbfd92b1-6816-4e25-a9af-81762fd9b96f">
+                    <propertyInstance
+                      Id="2aa0b0ca-78e2-47f8-a502-624dd219c61f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bab1f14-3653-4855-b4c7-a0ddb2d930cc">
+                    <propertyInstance
+                      Id="88be0f94-ba25-40dd-8bd2-706adeab67e7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc50a155-eb70-4944-9386-e8a7f14019f9">
+                    <propertyInstance
+                      Id="deedad8e-02c3-4105-8df3-400a16d78880"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30cc382a-3764-4752-aeab-e1a6e8310c6d">
+                    <propertyInstance
+                      Id="f47d9850-d00b-44fd-a679-88c7eb2dc399"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6c058de-6ced-4ca5-a642-8e26a1fa9557">
+                    <propertyInstance
+                      Id="6ff10932-09b5-4ef5-b096-d83d7ea0be74"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93fecea8-f527-49a8-81c6-e9380cfa0f05"
+                LastKnownName="Ellipse"
+                LastKnownLocation="Package4_1641.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="21518edd-967b-4f4f-9858-07d9bf8468b7"
+            name="E5"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6530c6f3-8ca2-41d8-b428-6016cfb4dd60"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DE5"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74863192-2a86-4384-9b7c-b2cfb39c9975"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffd50d6e-a54f-4bcf-a580-d16897a924c0">
+                    <propertyInstance
+                      Id="ec24df21-0ffb-46dc-801f-4672c16f0b24"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6167ee7-0ed8-4bef-a131-f2e0db519277">
+                    <propertyInstance
+                      Id="26a395a7-7354-43e6-808d-5688536b49e0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac43d91c-bc35-4880-b75a-38f00f202bc4">
+                    <propertyInstance
+                      Id="b2696bb3-f42b-487b-ab32-53054eb9078f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f274641-e7aa-4d59-9aec-c814835b4801">
+                    <propertyInstance
+                      Id="429e82f9-6315-4a18-8b62-595f72bf7f1e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a7e7ad7-3569-4b39-ab0c-140bc306b9b5">
+                    <propertyInstance
+                      Id="dfe58dec-f7db-42b3-a4f4-5e0853f3a683"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93fecea8-f527-49a8-81c6-e9380cfa0f05"
+                LastKnownName="Ellipse"
+                LastKnownLocation="Package4_1641.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="584fb055-66ef-4c36-9f1a-efdea5fac01d"
+            name="E6"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2b34688b-b5ee-4a72-b722-a2eb7b35ee94"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DE6"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ae101fb2-247a-4c4c-8b84-d82a4d999a0a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86d112cd-9860-4257-8ad1-ccffadc1f1b9">
+                    <propertyInstance
+                      Id="e7c23da2-b57a-4661-b2c3-9f6de20a7881"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7ab8a26-86ab-413a-b261-3b8938761862">
+                    <propertyInstance
+                      Id="0ffa06c8-c82f-4583-9cd8-231ba482037e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12ac2fda-70c8-4a93-82db-a7e4481c6d0a">
+                    <propertyInstance
+                      Id="25c8e92a-150a-4f0a-b85e-af2df269f66c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35ee7625-eff6-47de-a7a4-ed4d33fde253">
+                    <propertyInstance
+                      Id="3231dfd5-645b-4fcf-8fa8-be5f43b14aec"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf04b5ec-037b-464c-944d-cc8ffa42c5b9">
+                    <propertyInstance
+                      Id="499f5c16-5cc4-426c-9827-2cd30d57ca93"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93fecea8-f527-49a8-81c6-e9380cfa0f05"
+                LastKnownName="Ellipse"
+                LastKnownLocation="Package4_1641.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="031dfb2c-c230-4d6f-a55e-e939fe21ab8c"
+            name="E7"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="926739dd-3302-4c7e-ab35-26ef26ae086e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DE7"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0b3dd73f-eebc-4ffd-b528-5f8711302a6f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d149a5b-5a35-4d99-b1b0-0f1b65422ebd">
+                    <propertyInstance
+                      Id="6c49f3d3-860d-46a6-bae9-aaf8b3e5afdc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4392d53-60c0-48e9-88e5-e5e66c7eb977">
+                    <propertyInstance
+                      Id="3634ec98-1eb7-43ca-b829-bb53b41f7aaf"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bf3e116-9af9-4cff-ad4d-e3aa81badf6b">
+                    <propertyInstance
+                      Id="a4bcd8fb-efd5-4cc4-a788-80e196232a02"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c3b9bb0-9b10-4b0a-a8d0-8cb464931ac0">
+                    <propertyInstance
+                      Id="003c2ac6-3dcf-4814-8a8f-8f54b4200688"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd607dc7-b75f-4803-afa3-9ce2c6add670">
+                    <propertyInstance
+                      Id="ff63bb22-4353-4012-b860-edb26dc02244"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="93fecea8-f527-49a8-81c6-e9380cfa0f05"
+                LastKnownName="Ellipse"
+                LastKnownLocation="Package4_1641.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="19c7f4e5-2b33-4119-adc6-c2dfa4f9fdd8"
+            name="_contentLoaded"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cf274a14-62b5-4461-9cef-8b681c810969"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3D_contentLoaded"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0cf1bdf2-3f48-484d-ac7c-bf23f1ca1805"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca99643f-82af-41aa-b35f-86c55e9442a6">
+                    <propertyInstance
+                      Id="0086a96d-285e-44cf-8174-968da77e5068"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c836155a-e404-47a7-8596-e707bee9ded3">
+                    <propertyInstance
+                      Id="1ab03dac-d4d6-4328-8a45-ae92c292ad32"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65c5249d-b00d-4cd2-acb2-902a6eda8348">
+                    <propertyInstance
+                      Id="40afc3ff-053d-453f-8c99-610610bcd0e8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0127aa5-10f2-45c2-afe6-00f36cf11ba7">
+                    <propertyInstance
+                      Id="82174350-3710-4002-a7fa-54e0986f0ede"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d6b82d9-22a6-4941-a137-f2a40f16ce6c">
+                    <propertyInstance
+                      Id="407f4bdc-8f53-42cb-ac00-e03b91edcdd1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="eaf3d37e-6eb1-488d-b621-a9ee343f5a96"
+            name="_waarde"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0fa49e76-ad48-44a9-b730-c82853dce5a9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3D_waarde"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="30c3ec3d-7ca3-4d07-8e55-a95a29d3bf1c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1c936d4-ca89-49e5-b74f-f2da3836d060">
+                    <propertyInstance
+                      Id="7376e75c-0601-4fb7-8742-487696fe5fb4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4da08977-b1a3-486b-ac6d-9416a26e0c98">
+                    <propertyInstance
+                      Id="18ecbc26-2f41-460f-94d1-b22ac7b37479"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ccc75e0-569a-4440-a4bb-0400bd6fa394">
+                    <propertyInstance
+                      Id="9b3a605a-7009-4e1f-b570-49af40a4cf59"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2923c06-ded9-4f16-9a9f-78a514484222">
+                    <propertyInstance
+                      Id="3685157b-1e2a-461d-925e-f5f59ac9b564"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd1d7e13-e02f-4df9-87f8-064bb96c680a">
+                    <propertyInstance
+                      Id="301bba6e-652c-47ec-a280-a12e97b0fabe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="eef6c97f-5e65-45d8-bca7-e0a4253142c3"
+            name="InitializeComponent"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="88b968af-86aa-4f6a-b92b-4b1578b88bc1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c14b0f5d-0a0a-4b7d-a0cf-ce61215b8ce9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="671772cc-29a0-474e-a73b-17b8da6aa594">
+                    <propertyInstance
+                      Id="a4ee5a64-013d-4a87-806f-3aac33025197"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39e00118-e2a7-4e22-8fce-e0b375100a18">
+                    <propertyInstance
+                      Id="dbf58451-6af9-4585-b2ec-37bc44b2de45"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fab134b-3623-473a-a3a2-78fec1c60750">
+                    <propertyInstance
+                      Id="b45c2026-019e-4f30-9281-3565d46b7c19"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f3fc856-f5d9-40f1-82dd-647d6b1e894f">
+                    <propertyInstance
+                      Id="a1d1308c-0405-4e02-b9b6-93e3788af738"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8bc485e-a45a-47b6-bc42-ca155d349ae4">
+                    <propertyInstance
+                      Id="6f178419-5845-49d1-8751-6c48bab5530a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b22b286b-c07b-49cc-9092-79661e6e59cd">
+                    <propertyInstance
+                      Id="216f8208-7a4b-4895-b321-c5f23fd61a00"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e5fcecf6-077d-4846-8ca1-a78a1d374231"
+            name="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="25159605-27fd-4202-af15-5fe45da5a3c3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a1311730-9379-4a74-ac06-3a874cde7e78"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52cbe7d6-99eb-4e14-be4b-851de7547124">
+                    <propertyInstance
+                      Id="8fd1e204-6f0c-46b9-aa69-d4323a6eb64e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfaff722-4ce5-4bc8-9bf7-83af72dbfbdc">
+                    <propertyInstance
+                      Id="c553bb17-2d93-4126-8e9e-01feddbc88c9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="472fa4a0-1ac7-4967-9fd2-7690785acf5c">
+                    <propertyInstance
+                      Id="cb170b8d-cd8b-496a-b47d-e945d8747e25"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54e2c868-0326-4a0b-bf40-8c4ae4258fe2">
+                    <propertyInstance
+                      Id="f015e806-4e46-4b8b-b367-113dfbededa5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c312396-10f8-42bb-a0ab-5bee6405c49a">
+                    <propertyInstance
+                      Id="7019a9bf-4a59-4b1c-827d-d8ddbce1449a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e31b0457-8a20-4dfe-80be-edf9d6498e77">
+                    <propertyInstance
+                      Id="ba4c0812-2ab4-4be4-98c1-614d2149c20c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="82f445d3-12a5-4acb-a99a-17a84f4e9c87"
+                  name="connectionId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ccb22310-92a3-4f3c-bc67-e1a5b1992019"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3DconnectionId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed324150-e4ea-4cc7-94d7-cbf503397fbc"
+                  name="target"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="79b2d350-f0a8-4d67-9f13-690e74931f19"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3D(Name%3DSystem.Windows.Markup.IComponentConnector.Connect OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]) ParameterIdentifier%3Dtarget"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="55bcc0a3-66cc-4d37-8db1-ccf2e2f3c470"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_1641.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="facf7e7f-64eb-4d0d-8add-24395d711f8d"
+            name="Dots"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ba9f958d-7abe-4e83-80d4-dfa76415bcda"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fnanne%2FDocuments%2FVisual Studio 2012%2FProjects%2FDobbelaar%2FDobbelaar%2Fbin%2FDebug%2FDobbelaar.exe&quot; Namespace%3DDobbelaar.Views Type%3DDots Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cae82367-7e5c-47b3-954d-3123e1464ef5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d41f5ee1-1b06-481e-98c6-a10764d142b2">
+                    <propertyInstance
+                      Id="b2dc8ea0-77cb-4d6a-ad3a-fb0eb2b28855"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="434e8bae-533d-4955-a985-ebd151182c62">
+                    <propertyInstance
+                      Id="e782c1e8-69fd-41a7-a052-4fe85cf85b34"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="003c6565-b07a-49f9-9813-91f4a1869cb6">
+                    <propertyInstance
+                      Id="bb167bdd-d888-4898-b93a-f26659754895"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e00a2c94-4eaf-47fe-aa3e-981edd84974b">
+                    <propertyInstance
+                      Id="dead1c11-f2a5-40d4-b84a-40eb87360414"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f96879f2-a1c1-417d-a84b-3f97cf56a8ad">
+                    <propertyInstance
+                      Id="f2b4a432-01fb-44a9-95bd-da94e83f506b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c63f659-679c-4849-8723-5621f5484c57">
+                    <propertyInstance
+                      Id="19fd9053-805f-49be-8cd5-a51c73d1766a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

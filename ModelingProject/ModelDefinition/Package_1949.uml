@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="adb258b0-31c3-4992-b24d-d4474f7a90c4"
+  name="Process" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="59c91865-b97b-462d-a518-252d1efccac6"
+        name="Task"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="19edd30d-9e6f-4a65-8b58-f82862398379"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f46151c8-860f-41e8-bb5c-1b898e0c7df1">
+                <propertyInstance
+                  Id="20dccbfd-820d-43da-860f-5d45376f66f5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15c40ffa-dd7f-4e24-a460-63583bc1d2c9">
+                <propertyInstance
+                  Id="d8e61af0-dc50-4869-bf13-9ea8d2b9b752"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9eb996f-130c-427d-bdc6-f57c1fca684b">
+                <propertyInstance
+                  Id="af02da71-16a7-44dd-a8fd-31b685d087c9"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b67b779a-190c-4f37-9cfa-22ae27cd63ce">
+                <propertyInstance
+                  Id="8ee14350-0e3b-4655-8676-251927f50c2a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56fc6f52-706a-43df-8d20-c570d83ed011">
+                <propertyInstance
+                  Id="779facaa-8bd3-44b6-905d-096847111262"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="bfae1aa5-216a-4a97-beaa-f6d8e38fb76a">
+            <classMoniker
+              Id="8239d44f-f65f-4af5-a3e2-ecb32d8618be"
+              LastKnownName="Dobbelsteen"
+              LastKnownLocation="Package_2010.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e5f1dc8d-64c4-48c8-9c88-8433998277c0"
+            name="Run"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1217e108-0604-423e-a84d-afc247e36642"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12707b80-aada-40cf-85f1-3ce81652c053">
+                    <propertyInstance
+                      Id="a964c68a-f87c-44a5-a7f5-b933db606258"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b0f1f9a-b0b6-4250-be12-4812670c82f8">
+                    <propertyInstance
+                      Id="625b5a3e-9fa7-49f0-abd2-9b01dbebd56b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e8cdd70-2500-4a74-a482-20bd99b31f70">
+                    <propertyInstance
+                      Id="47d1d655-c3ee-4069-b0ff-55824675a7d2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cca62c88-86e1-419f-bdb8-5f42d7c7cac0">
+                    <propertyInstance
+                      Id="5a2a82e0-fb27-4200-b60a-99035aeba261"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33f8c80d-3ddf-46b4-9e16-edf3999048b2">
+                    <propertyInstance
+                      Id="a59e3bda-24c9-4bec-9826-3027da3afe27"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3258119b-7144-41b7-98e5-25694fb1a574">
+                    <propertyInstance
+                      Id="4b6bfe7c-5d51-4584-870a-7c0341a85860"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="8a8c9510-cf5c-463f-a361-11771b69a933"
+            name="Validate"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e450e922-0620-4b7c-9b97-54f106251a7c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c86af7f-58ac-40ab-af6f-f10489733b3f">
+                    <propertyInstance
+                      Id="775389b5-d1bb-447b-abfd-32f99107e4e1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="424c3d71-de4d-4ee3-b681-9add9db14451">
+                    <propertyInstance
+                      Id="5bc1fa81-b1e1-4a67-a5cc-0bab3826b53f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dfa8418-ab22-4d03-8320-818a12b6dc64">
+                    <propertyInstance
+                      Id="5cb4a36a-e206-45b3-a97d-b4a9eb1f5ed9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13016052-6e39-4fda-a90f-a373360c944a">
+                    <propertyInstance
+                      Id="2a436bb4-c8ac-4657-a940-9a98c96cce9f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5d36f4c-7213-48a3-bd88-8d0d13d6f8c2">
+                    <propertyInstance
+                      Id="78f3b146-ccb2-428e-900f-409477eb600d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4aa4939-8483-4512-b69f-f784869afda0">
+                    <propertyInstance
+                      Id="4c5e25ef-82e1-4f4d-9f8c-a72dab7f045a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="8444a930-b438-43fe-911b-071723a6a7eb"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="da92e1e0-5db2-41b5-854c-424f59eb0499"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed06eead-d892-4d89-a53a-f1f72c48e775">
+                    <propertyInstance
+                      Id="e42fb12e-c1ea-412f-9b64-58c2acd69e05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0183705a-1859-4633-ba3c-a0830b30a778">
+                    <propertyInstance
+                      Id="43a4299e-8cf0-41dd-8a11-4d1023a310af"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="594cf038-b92e-4f37-9775-0ccedc579196">
+                    <propertyInstance
+                      Id="633d4dc4-154f-4ab4-871b-5987012858b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a361d31-ec90-46c9-bd72-71c5c76ccad1">
+                    <propertyInstance
+                      Id="2c5c48e4-9516-4008-94d6-e2533ec94a8a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4bdb8193-c4f2-4c02-8ea1-cea359fc482f">
+                    <propertyInstance
+                      Id="6947fa50-5ac2-41f0-b236-d21e73cb8fe8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57da0c4e-f880-4eb7-bf46-4b13aac6795d">
+                    <propertyInstance
+                      Id="f705669e-4b1a-4a4c-808d-f6d6ca3d0e31"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3e29a6f0-ab0b-4b4d-9f4a-b66923a34ef6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

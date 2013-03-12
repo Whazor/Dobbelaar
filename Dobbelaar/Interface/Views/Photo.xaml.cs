@@ -16,13 +16,13 @@ using System.Windows.Shapes;
 namespace Dobbelaar.Views
 {
     /// <summary>
-    /// Interaction logic for Foto.xaml
+    /// Interaction logic for Photo.xaml
     /// </summary>
-    public partial class Foto : Window
+    public partial class Photo : Window
     {
         private int _waarde;
 
-        public Foto()
+        public Photo()
         {
             InitializeComponent();
         }
@@ -33,16 +33,7 @@ namespace Dobbelaar.Views
             {
                 _waarde = value;
 
-                var thisExe = System.Reflection.Assembly.GetExecutingAssembly();
-                var path = thisExe.Location;
-                var dirInfo = new DirectoryInfo(path);
-                if (dirInfo.Parent != null)
-                {
-                    var folderName= dirInfo.Parent.FullName;
-                    var uri = new Uri(folderName + @"\Images\Image" + value + ".jpg");
-                    var img = new BitmapImage(uri);
-                    Image.Source = img;
-                }
+                Image.Source = (ImageSource) FindResource("Image"+value);
             }
         }
     }

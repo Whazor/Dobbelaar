@@ -16,12 +16,12 @@ using System.Windows.Shapes;
 namespace Dobbelaar.Views
 {
     /// <summary>
-    /// Interaction logic for Stippen.xaml
+    /// Interaction logic for Dots.xaml
     /// </summary>
-    public partial class Stippen : Window
+    public partial class Dots : Window
     {
         private int _waarde;
-        public Stippen()
+        public Dots()
         {
             InitializeComponent();
         }

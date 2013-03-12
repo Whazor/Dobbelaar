@@ -8,23 +8,19 @@ namespace Dobbelaar.Domain
 {
     class Dobbelsteen
     {
-        readonly Random random = new Random();
+        readonly Random _random = new Random();
 
         public Dobbelsteen()
         {
             Gooi();
         }
 
-        private int _waarde;
+        private int Waarde { get; set; }
 
-        public int Waarde
+        public int Gooi()
         {
-            get { return _waarde; }
-        }
-
-        public void Gooi()
-        {
-            _waarde = random.Next(1, 7);
+            Waarde = _random.Next(1, 7);
+            return Waarde;
         }
     }
 }

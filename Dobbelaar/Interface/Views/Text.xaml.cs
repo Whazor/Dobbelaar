@@ -15,13 +15,13 @@ using System.Windows.Shapes;
 namespace Dobbelaar.Views
 {
     /// <summary>
-    /// Interaction logic for Cijfer.xaml
+    /// Interaction logic for Text.xaml
     /// </summary>
-    public partial class Cijfer : Window
+    public partial class Text : Window
     {
         private int _waarde;
 
-        public Cijfer()
+        public Text()
         {
             InitializeComponent();
         }
